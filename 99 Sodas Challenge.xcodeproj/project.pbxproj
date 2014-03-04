@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F3759A18C5647100D88AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3759918C5647100D88AE4 /* Foundation.framework */; };
+		03F3759C18C5647100D88AE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3759B18C5647100D88AE4 /* CoreGraphics.framework */; };
+		03F3759E18C5647100D88AE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3759D18C5647100D88AE4 /* UIKit.framework */; };
+		03F375A418C5647100D88AE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03F375A218C5647100D88AE4 /* InfoPlist.strings */; };
+		03F375A618C5647100D88AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F375A518C5647100D88AE4 /* main.m */; };
+		03F375AA18C5647100D88AE4 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F375A918C5647100D88AE4 /* SAAppDelegate.m */; };
+		03F375AD18C5647100D88AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F375AB18C5647100D88AE4 /* Main.storyboard */; };
+		03F375B018C5647100D88AE4 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F375AF18C5647100D88AE4 /* SAViewController.m */; };
+		03F375B218C5647100D88AE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F375B118C5647100D88AE4 /* Images.xcassets */; };
+		03F375B918C5647100D88AE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F375B818C5647100D88AE4 /* XCTest.framework */; };
+		03F375BA18C5647100D88AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3759918C5647100D88AE4 /* Foundation.framework */; };
+		03F375BB18C5647100D88AE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3759D18C5647100D88AE4 /* UIKit.framework */; };
+		03F375C318C5647100D88AE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03F375C118C5647100D88AE4 /* InfoPlist.strings */; };
+		03F375C518C5647100D88AE4 /* _9_Sodas_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F375C418C5647100D88AE4 /* _9_Sodas_ChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F375BC18C5647100D88AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F3758E18C5647100D88AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F3759518C5647100D88AE4;
+			remoteInfo = "99 Sodas Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F3759618C5647100D88AE4 /* 99 Sodas Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "99 Sodas Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F3759918C5647100D88AE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03F3759B18C5647100D88AE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03F3759D18C5647100D88AE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03F375A118C5647100D88AE4 /* 99 Sodas Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "99 Sodas Challenge-Info.plist"; sourceTree = "<group>"; };
+		03F375A318C5647100D88AE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03F375A518C5647100D88AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03F375A718C5647100D88AE4 /* 99 Sodas Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "99 Sodas Challenge-Prefix.pch"; sourceTree = "<group>"; };
+		03F375A818C5647100D88AE4 /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		03F375A918C5647100D88AE4 /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		03F375AC18C5647100D88AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F375AE18C5647100D88AE4 /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
+		03F375AF18C5647100D88AE4 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		03F375B118C5647100D88AE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03F375B718C5647100D88AE4 /* 99 Sodas ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99 Sodas ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F375B818C5647100D88AE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03F375C018C5647100D88AE4 /* 99 Sodas ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "99 Sodas ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		03F375C218C5647100D88AE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03F375C418C5647100D88AE4 /* _9_Sodas_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_Sodas_ChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F3759318C5647100D88AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3759C18C5647100D88AE4 /* CoreGraphics.framework in Frameworks */,
+				03F3759E18C5647100D88AE4 /* UIKit.framework in Frameworks */,
+				03F3759A18C5647100D88AE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F375B418C5647100D88AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F375B918C5647100D88AE4 /* XCTest.framework in Frameworks */,
+				03F375BB18C5647100D88AE4 /* UIKit.framework in Frameworks */,
+				03F375BA18C5647100D88AE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F3758D18C5647100D88AE4 = {
+			isa = PBXGroup;
+			children = (
+				03F3759F18C5647100D88AE4 /* 99 Sodas Challenge */,
+				03F375BE18C5647100D88AE4 /* 99 Sodas ChallengeTests */,
+				03F3759818C5647100D88AE4 /* Frameworks */,
+				03F3759718C5647100D88AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F3759718C5647100D88AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F3759618C5647100D88AE4 /* 99 Sodas Challenge.app */,
+				03F375B718C5647100D88AE4 /* 99 Sodas ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F3759818C5647100D88AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F3759918C5647100D88AE4 /* Foundation.framework */,
+				03F3759B18C5647100D88AE4 /* CoreGraphics.framework */,
+				03F3759D18C5647100D88AE4 /* UIKit.framework */,
+				03F375B818C5647100D88AE4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03F3759F18C5647100D88AE4 /* 99 Sodas Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				03F375A818C5647100D88AE4 /* SAAppDelegate.h */,
+				03F375A918C5647100D88AE4 /* SAAppDelegate.m */,
+				03F375AB18C5647100D88AE4 /* Main.storyboard */,
+				03F375AE18C5647100D88AE4 /* SAViewController.h */,
+				03F375AF18C5647100D88AE4 /* SAViewController.m */,
+				03F375B118C5647100D88AE4 /* Images.xcassets */,
+				03F375A018C5647100D88AE4 /* Supporting Files */,
+			);
+			path = "99 Sodas Challenge";
+			sourceTree = "<group>";
+		};
+		03F375A018C5647100D88AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03F375A118C5647100D88AE4 /* 99 Sodas Challenge-Info.plist */,
+				03F375A218C5647100D88AE4 /* InfoPlist.strings */,
+				03F375A518C5647100D88AE4 /* main.m */,
+				03F375A718C5647100D88AE4 /* 99 Sodas Challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03F375BE18C5647100D88AE4 /* 99 Sodas ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F375C418C5647100D88AE4 /* _9_Sodas_ChallengeTests.m */,
+				03F375BF18C5647100D88AE4 /* Supporting Files */,
+			);
+			path = "99 Sodas ChallengeTests";
+			sourceTree = "<group>";
+		};
+		03F375BF18C5647100D88AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03F375C018C5647100D88AE4 /* 99 Sodas ChallengeTests-Info.plist */,
+				03F375C118C5647100D88AE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F3759518C5647100D88AE4 /* 99 Sodas Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F375C818C5647100D88AE4 /* Build configuration list for PBXNativeTarget "99 Sodas Challenge" */;
+			buildPhases = (
+				03F3759218C5647100D88AE4 /* Sources */,
+				03F3759318C5647100D88AE4 /* Frameworks */,
+				03F3759418C5647100D88AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "99 Sodas Challenge";
+			productName = "99 Sodas Challenge";
+			productReference = 03F3759618C5647100D88AE4 /* 99 Sodas Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F375B618C5647100D88AE4 /* 99 Sodas ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F375CB18C5647100D88AE4 /* Build configuration list for PBXNativeTarget "99 Sodas ChallengeTests" */;
+			buildPhases = (
+				03F375B318C5647100D88AE4 /* Sources */,
+				03F375B418C5647100D88AE4 /* Frameworks */,
+				03F375B518C5647100D88AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F375BD18C5647100D88AE4 /* PBXTargetDependency */,
+			);
+			name = "99 Sodas ChallengeTests";
+			productName = "99 Sodas ChallengeTests";
+			productReference = 03F375B718C5647100D88AE4 /* 99 Sodas ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F3758E18C5647100D88AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sachin Ahuja";
+				TargetAttributes = {
+					03F375B618C5647100D88AE4 = {
+						TestTargetID = 03F3759518C5647100D88AE4;
+					};
+				};
+			};
+			buildConfigurationList = 03F3759118C5647100D88AE4 /* Build configuration list for PBXProject "99 Sodas Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F3758D18C5647100D88AE4;
+			productRefGroup = 03F3759718C5647100D88AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F3759518C5647100D88AE4 /* 99 Sodas Challenge */,
+				03F375B618C5647100D88AE4 /* 99 Sodas ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F3759418C5647100D88AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F375B218C5647100D88AE4 /* Images.xcassets in Resources */,
+				03F375A418C5647100D88AE4 /* InfoPlist.strings in Resources */,
+				03F375AD18C5647100D88AE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F375B518C5647100D88AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F375C318C5647100D88AE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F3759218C5647100D88AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F375AA18C5647100D88AE4 /* SAAppDelegate.m in Sources */,
+				03F375B018C5647100D88AE4 /* SAViewController.m in Sources */,
+				03F375A618C5647100D88AE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F375B318C5647100D88AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F375C518C5647100D88AE4 /* _9_Sodas_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F375BD18C5647100D88AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F3759518C5647100D88AE4 /* 99 Sodas Challenge */;
+			targetProxy = 03F375BC18C5647100D88AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F375A218C5647100D88AE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F375A318C5647100D88AE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03F375AB18C5647100D88AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F375AC18C5647100D88AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F375C118C5647100D88AE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F375C218C5647100D88AE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F375C618C5647100D88AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03F375C718C5647100D88AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F375C918C5647100D88AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "99 Sodas Challenge/99 Sodas Challenge-Prefix.pch";
+				INFOPLIST_FILE = "99 Sodas Challenge/99 Sodas Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03F375CA18C5647100D88AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "99 Sodas Challenge/99 Sodas Challenge-Prefix.pch";
+				INFOPLIST_FILE = "99 Sodas Challenge/99 Sodas Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03F375CC18C5647100D88AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/99 Sodas Challenge.app/99 Sodas Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "99 Sodas Challenge/99 Sodas Challenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99 Sodas ChallengeTests/99 Sodas ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03F375CD18C5647100D88AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/99 Sodas Challenge.app/99 Sodas Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "99 Sodas Challenge/99 Sodas Challenge-Prefix.pch";
+				INFOPLIST_FILE = "99 Sodas ChallengeTests/99 Sodas ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F3759118C5647100D88AE4 /* Build configuration list for PBXProject "99 Sodas Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F375C618C5647100D88AE4 /* Debug */,
+				03F375C718C5647100D88AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F375C818C5647100D88AE4 /* Build configuration list for PBXNativeTarget "99 Sodas Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F375C918C5647100D88AE4 /* Debug */,
+				03F375CA18C5647100D88AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03F375CB18C5647100D88AE4 /* Build configuration list for PBXNativeTarget "99 Sodas ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F375CC18C5647100D88AE4 /* Debug */,
+				03F375CD18C5647100D88AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F3758E18C5647100D88AE4 /* Project object */;
+}
